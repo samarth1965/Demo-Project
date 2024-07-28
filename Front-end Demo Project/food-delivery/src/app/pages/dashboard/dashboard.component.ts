@@ -18,9 +18,9 @@ export class DashboardComponent implements OnInit{
 
   constructor(private foodService: FoodServiceService){}
   ngOnInit(): void {
-    throw new Error('Method not implemented.');
+    throw new Error('Method not implementedssss.');
   }
 
-  searchByFoodName()
+  // searchByFoodName()
 
 }
