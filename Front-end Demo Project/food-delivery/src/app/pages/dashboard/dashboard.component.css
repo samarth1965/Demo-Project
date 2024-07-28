@@ -1,0 +1,93 @@
+
+/* Header styles */
+.dashboard-header {
+    background-image: url('../../assets/pic8.jpg');
+    background-size: cover; /* Cover the header with the background image */
+    background-position: center;
+    color: #efeff4;
+    padding: 20px 0; /* Padding top and bottom */
+    min-height: 70px;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    border-bottom: #616161 3px solid;
+}
+
+.dashboard-header .container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
+}
+
+.dashboard-header .header-content {
+    display: flex;
+    justify-content:space-between ;
+    align-items: center; /* Center items vertically */
+}
+
+.dashboard-header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 36px; /* Increase font size */
+    font-weight: bold; /* Make font bold */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Add text outline */
+    text-align: center;
+    padding-right: 150px;
+}
+
+.dashboard-header a {
+    color: #070707;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 20px; /* Add margin between list items */
+    padding: 10px;
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.dashboard-header a:hover {
+    color: #fff; /* Change text color on hover */
+}
+
+.dashboard-header ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center; /* Center list items vertically */
+}
+
+.dashboard-header nav {
+    margin-top: 10px; /* Adjust margin */
+}
+
+/* Search bar styles */
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input[type=text] {
+    padding: 10px;
+    margin-right: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.search-container button:hover {
+    background-color: #45a049;
+}
