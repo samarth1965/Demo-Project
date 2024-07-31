@@ -21,6 +21,6 @@ export class DashboardComponent implements OnInit{
     throw new Error('Method not implementedssss.');
   }
 
-  // searchByFoodName()
+  // searchByFoodName()s
 
 }
